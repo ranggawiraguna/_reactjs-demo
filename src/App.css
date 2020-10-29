@@ -1,16 +1,54 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; user-select: none; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+img {  pointer-events: none; }
+p { user-select: text; }
+div { box-sizing: border-box; }
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=Sue+Ellen+Francisco&display=swap");
+
 .App {
   text-align: center;
+  box-sizing: border-box ;
+  width: 100% ;
+  min-height: 100vh ;
+  padding: 5vh ;
+  background-color: #2E342E;
+  font-family: 'Comfortaa', cursive;
+}
+
+.App-Container {
+  position: relative; 
+  box-sizing: border-box; 
+  width: 100%; 
+  height: 90vh; 
+  background-color: #9DCBF7; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px 2px rgba(255,255,255,50%); 
+  overflow: hidden;
 }
 
 .App-logo {
-  height: 40vmin;
+  position:absolute; 
+  height: 80%;
+  left:0;
+  right:0;
+  top:0;
+  margin:auto;
+  padding:8% 5% 5%;
+  filter:drop-shadow(0 0 20px rgba(149, 177, 204, 0.4));
+  opacity:80%;
   pointer-events: none;
+  animation: App-logo-spin infinite 20s linear;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@keyframes App-logo-spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
 }
 
 .App-header {
@@ -28,11 +66,64 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Header {
+  position: sticky;
+  z-index: 100;
+  height: 10vh;
+  right: 0;
+  left: 0;
+  box-sizing: border-box ;
+  color: white;
+  background-color: #95B1CC;
+  padding: 1.9vh;
+  text-indent: -7px;
+  line-height: 7vh;
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 6.2vh; 
+  font-weight: bolder; 
+  box-shadow: 0px 2px 3px rgba(0,0,0,0.2);
+}
+
+.Header2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+.ContentContainer {
+  height:100%;
+  width:100%;
+  box-sizing:border-box; 
+  background-color:rgba(255,255,255,0.1);
+  position:relative; 
+  padding:50px; 
+  overflow:auto
+}
+.ContentContainer::-webkit-scrollbar { width: 30px; }
+.ContentContainer::-webkit-scrollbar-thumb { background-color: rgba(149, 177, 204,60%); border-radius: 30px; border: 10px solid #A7D0F8;}
+
+.ContentCard {
+  cursor: pointer;
+  position: relative;
+  width: 200px;
+  height: 160px;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(149, 177, 204, 0.6);
+}
+
+.ContentCard:hover {
+  background-color: rgba(149, 177, 204, 1);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.ContentCard > p {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  transform: translateX(-50%);
 }
