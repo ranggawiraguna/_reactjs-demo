@@ -3,7 +3,7 @@
     "window.zoomLevel": -0.5,
     "terminal.integrated.fontSize": 14,
     "workbench.colorTheme": "WebStorm Monokai",
-    "editor.tabSize": 4,
+    "editor.tabSize": 2,
     "editor.insertSpaces": true,
     "workbench.iconTheme": "vscode-icons",
     "editor.fontWeight": "400",

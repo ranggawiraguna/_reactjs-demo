@@ -6,7 +6,7 @@ blockquote, q { quotes: none; }
 blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
 table { border-collapse: collapse; border-spacing: 0; }
 img {  pointer-events: none; }
-p { user-select: text; }
+p { user-select: none; }
 div { box-sizing: border-box; }
 
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=Sue+Ellen+Francisco&display=swap");
@@ -85,22 +85,35 @@ div { box-sizing: border-box; }
 }
 
 .Header2 {
-  font-size: 24px;
+  font-size: 3vh;
   margin-bottom: 10px;
   font-weight: bolder;
 }
 
-.ContentContainer {
-  height:100%;
+#ContentContainer {
+  height: 80vh;
+  width: 100%;
+}
+
+.Contents {
+  position: relative;
+  height:80vh;
   width:100%;
   box-sizing:border-box; 
   background-color:rgba(255,255,255,0.1);
   position:relative; 
-  padding:50px; 
+  padding: 30px 50px 50px; 
   overflow:auto
 }
-.ContentContainer::-webkit-scrollbar { width: 30px; }
-.ContentContainer::-webkit-scrollbar-thumb { background-color: rgba(149, 177, 204,60%); border-radius: 30px; border: 10px solid #A7D0F8;}
+.Contents::-webkit-scrollbar { width: 30px; }
+.Contents::-webkit-scrollbar-thumb { background-color: rgba(149, 177, 204,60%); border-radius: 30px; border: 10px solid #A7D0F8;}
+
+.ContentCardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
 .ContentCard {
   cursor: pointer;
@@ -116,6 +129,10 @@ div { box-sizing: border-box; }
 .ContentCard:hover {
   background-color: rgba(149, 177, 204, 1);
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.ContentCard > img {
+  filter: drop-shadow(0 0 10px rgba(255,255,255,0.2));
 }
 
 .ContentCard > p {

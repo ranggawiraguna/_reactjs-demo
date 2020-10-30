@@ -1,32 +1,44 @@
-import React from 'react';
+import React from 'react'
+import './App.css';
+import {Frame, Contents, Header2 } from './Components';
 import logo from './logo.svg';
+import { Link } from 'react-router-dom'
 
-const Header = (props)=> <h1 className="Header"> {props.innerValue} </h1>
-
-const Header2 = (props)=> <h2 className="Header2"> {props.innerValue} </h2>
-
-const Contents = (props)=> {
+function Dasboard() {
     return (
-        <div style={{height:"80vh", width:"100%"}}>
-            <img className="App-logo" src={logo} alt="React JS"/>
-
-            <div className="ContentContainer">
-                <Header2 innerValue="List of Contents"/>
-                <div style={{ display:"flex", justifyContent:"center", alignItems:"center", flexWrap:"wrap"}}>                
-                    { (() => props.listContent.map(e => <Content name={e}/> ))() }
-                </div>
-            </div>
-        </div>
+        <Frame>
+            <AppLogo/>
+            <Contents>
+                <Header2 innerValue="List Of Contents" />
+                <ContainerCard>
+                    {/* { (() => listMateri.map(e => <Card name={e} onClick={()=>{changeAppPage(e)}}/> ))() } */}
+                    <Link to="/Dashboard/Intro"> <Card name="Intro" /> </Link>
+                    <Link to="/Dashboard/Component"> <Card name="Component" /> </Link>
+                    <Link to="/Dashboard/State"> <Card name="State" /> </Link>
+                    <Link to="/Dashboard/Props"> <Card name="Props" /> </Link>
+                </ContainerCard>
+            </Contents>
+        </Frame>
     )
 }
 
-const Content = (props) => {
+//Components
+const AppLogo = () => <img className="App-logo" src={logo} alt="React JS" />
+
+const ContainerCard = (props) => <div className="ContentCardContainer"> {props.children} </div>
+
+const Card = (props) => {
     return (
-        <div className="ContentCard">
-            <img src={require("./Icons/"+props.name+".svg")} alt={"Image "+props.name} height="60%"/>
+        <div className="ContentCard" onClick={props.onClick}>
+            <img src={require("./Assets/" + props.name + ".svg")} alt={"Image " + props.name} height="60%" />
             <p> {props.name} </p>
         </div>
     )
 }
 
-export { Header, Contents }
+Card.defaultProps = {
+    name: 'Undefined',
+}
+
+
+export default Dasboard
