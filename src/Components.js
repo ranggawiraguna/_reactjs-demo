@@ -14,7 +14,7 @@ const ContentContainer = (props) => {
     )
 }
 
-const Contents = (props) => <div className="Contents"> {props.children} </div>
+const Contents = (props) => <div id={props.id} className="Contents"> {props.children} </div>
 
 const Frame = (props) => {
     return (

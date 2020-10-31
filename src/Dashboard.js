@@ -1,5 +1,4 @@
 import React from 'react'
-import './App.css';
 import {Frame, Contents, Header2 } from './Components';
 import logo from './logo.svg';
 import { Link } from 'react-router-dom'
@@ -8,14 +7,14 @@ function Dasboard() {
     return (
         <Frame>
             <AppLogo/>
-            <Contents>
+            <Contents id="Dashboard">
                 <Header2 innerValue="List Of Contents" />
                 <ContainerCard>
                     {/* { (() => listMateri.map(e => <Card name={e} onClick={()=>{changeAppPage(e)}}/> ))() } */}
-                    <Link to="/Dashboard/Intro"> <Card name="Intro" /> </Link>
-                    <Link to="/Dashboard/Component"> <Card name="Component" /> </Link>
-                    <Link to="/Dashboard/State"> <Card name="State" /> </Link>
-                    <Link to="/Dashboard/Props"> <Card name="Props" /> </Link>
+                    <Link to="/Intro"> <Card name="Intro" /> </Link>
+                    <Link to="/Component"> <Card name="Component" /> </Link>
+                    <Link to="/State"> <Card name="State" /> </Link>
+                    <Link to="/Props"> <Card name="Props" /> </Link>
                 </ContainerCard>
             </Contents>
         </Frame>

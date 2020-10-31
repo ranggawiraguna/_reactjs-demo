@@ -8,7 +8,7 @@ function Intro() {
 
     return (
         <Frame>
-            <Contents>
+            <Contents id="Intro">
                 <Header2 innerValue="Intro" />
                 <div className="Container">
                     <div>

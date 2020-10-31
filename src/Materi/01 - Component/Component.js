@@ -27,7 +27,7 @@ function addNewCard() {
 function Component() {
     return (
         <Frame>
-            <Contents>
+            <Contents id="Components">
                 <Header2 innerValue="Component" />
                 <CardContainer id="CardContainer">
                     <Card />

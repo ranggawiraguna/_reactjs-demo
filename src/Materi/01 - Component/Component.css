@@ -1,10 +1,10 @@
-.CardContainer {
+#Components .CardContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.Card {
+#Components .Card {
     position: relative;
     width: 200px;
     height: 150px;
@@ -14,17 +14,17 @@
     padding: 10px;
 }
 
-.Card img {
+#Components .Card img {
     height: 60%;
 }
 
-.Card p {
+#Components .Card p {
     position: absolute;
     font-size: 12px;
     bottom: 15px;
 }
 
-button {
+#Components button {
     cursor: pointer;
     outline: 0 !important;
     background-color: greenyellow;
@@ -36,6 +36,6 @@ button {
     border-radius: 100px;
 }
 
-button:hover {
+#Components button:hover {
     box-shadow: 0 0 5px rgba(0,0,0,0.2);
 }

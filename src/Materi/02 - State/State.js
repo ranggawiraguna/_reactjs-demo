@@ -1,4 +1,5 @@
 import React from 'react';
+import './State.css';
 import { Frame, Contents, Header2 } from '../../Components';
 
 const CardContainer = (props) => <div id={props.id} className="CardContainer">{props.children}</div>
@@ -14,14 +15,18 @@ class Card extends React.Component {
 
     handleClick = () => {
         this.setState({
-            cardIndex: ++this.cardIndex
-        })
+            cardIndex: this.state.cardIndex + 1
+        });
     }
 
     render() {
         return (
             <div className="Card">
+                {this.state.cardIndex}
+
+                <button onClick={this.handleClick}>Increment</button>
             </div>
+
         )
     }
 }
@@ -30,7 +35,7 @@ class Card extends React.Component {
 function State() {
     return (
         <Frame>
-            <Contents>
+            <Contents id="State">
                 <Header2 innerValue="State" />
                 <CardContainer id="CardContainer">
                     <Card />
