@@ -1,41 +1,21 @@
 import React from 'react';
-import { Frame, Contents, Header2 } from '../../Components';
-import logo from './../../logo.svg'
-import './Component.css'
-
-
-const CardContainer = (props) => <div id={props.id} className="CardContainer">{props.children}</div>
-
-const Card = () => {
-    return (
-        <div className="Card">
-            <img src={logo} alt="Logo" />
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, aut? </p>
-        </div>
-    )
-}
-
-const ButtonAdd = () => <button onClick={() => addNewCard()}>Add Card</button>
-
-function addNewCard() {
-    document.getElementById("CardContainer").innerHTML += ` <div class="Card">
-                                                                <img src=${logo} alt="Logo" />
-                                                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, aut? </p>
-                                                            </div>`
-}
+import { Frame, Container, Header2 } from '../../Components';
+import Cards from './Containers/Cards/Cards';
+import Card from './Components/Card/Card';
+import ButtonAdd from './Components/ButtonAdd/ButtonAdd';
 
 function Component() {
     return (
         <Frame>
-            <Contents id="Components">
+            <Container id="Component">
                 <Header2 innerValue="Component" />
-                <CardContainer id="CardContainer">
+                <Cards id="CardContainer">
                     <Card />
                     <Card />
                     <Card />
-                </CardContainer>
+                </Cards>
                 <ButtonAdd />
-            </Contents>
+            </Container>
         </Frame>
     )
 }

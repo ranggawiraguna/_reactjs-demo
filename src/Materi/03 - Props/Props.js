@@ -1,12 +1,12 @@
 import React from 'react';
-import { Frame, Contents, Header2 } from '../../Components';
+import { Frame, Container, Header2 } from '../../Components';
 
 function Props() {
     return (
         <Frame>
-            <Contents>
+            <Container>
                 <Header2 innerValue="Props" />
-            </Contents>
+            </Container>
         </Frame>
     )
 }

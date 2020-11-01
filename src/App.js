@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Dashboard from './Dashboard';
 import Intro from './Materi/00 - Intro/Intro';
@@ -15,7 +14,7 @@ function App() {
         <Route path="/Intro" exact component={Intro}/>
         <Route path="/Component" exact component={Component}/>
         <Route path="/State" exact component={State}/>
-        <Route path="/Props" exact component={Props}/>
+        <Route path="/Props" exact component={Props}/> 
       </Switch>
     </BrowserRouter>
   )

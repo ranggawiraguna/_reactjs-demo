@@ -1,5 +1,5 @@
 import React from 'react';
-import { Frame, Contents, Header2 } from '../../Components';
+import { Frame, Container, Header2 } from '../../Components';
 import logo from "./../../logo.svg"
 import './Intro.css'
 
@@ -8,7 +8,7 @@ function Intro() {
 
     return (
         <Frame>
-            <Contents id="Intro">
+            <Container id="Intro">
                 <Header2 innerValue="Intro" />
                 <div className="Container">
                     <div>
@@ -29,7 +29,7 @@ function Intro() {
                         <button onClick={() => alert("Button is clicked!")}> Click This </button>
                     </div>
                 </div>
-            </Contents>
+            </Container>
         </Frame>
     )
 }

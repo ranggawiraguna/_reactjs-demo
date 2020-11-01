@@ -1,0 +1,15 @@
+#Component button {
+  cursor: pointer;
+  outline: 0 !important;
+  background-color: greenyellow;
+  color: black;
+  font-weight: bolder;
+  border: 0;
+  padding: 10px 20px;
+  margin: 10px 10px 20px;
+  border-radius: 100px;
+}
+
+#Component button:hover {
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
