@@ -1,5 +1,5 @@
 import React from 'react';
-import { Frame, Container, Header2 } from '../../Components';
+import { Frame, Container, Header2 } from '../../__initial/Components';
 import Cards from './Containers/Cards/Cards';
 import Card from './Components/Card/Card';
 import ButtonAdd from './Components/ButtonAdd/ButtonAdd';

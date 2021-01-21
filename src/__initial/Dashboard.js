@@ -2,7 +2,7 @@ import React from 'react';
 import { Frame, Container, AppLogo, Header2, DashboardContainer, DashboardCard } from './Components';
 import { Link } from 'react-router-dom'
 
-function Dasboard() {
+function Dashboard() {
     return (
         <Frame>
             <AppLogo />
@@ -19,4 +19,4 @@ function Dasboard() {
     )
 }
 
-export default Dasboard
+export default Dashboard

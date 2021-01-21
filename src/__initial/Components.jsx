@@ -1,6 +1,6 @@
 import React from 'react';
 import './Components.css';
-import logo from './logo.svg';
+import logo from './../logo.svg';
 
 const Frame = (props) => {
     return (
@@ -26,7 +26,7 @@ const DashboardContainer = (props) => <div className="ContentCardContainer"> {pr
 const DashboardCard = (props) => {
     return (
         <div className="ContentCard" onClick={props.onClick}>
-            <img src={require("./Assets/" + props.name + ".svg")} alt={"Image " + props.name} height="60%" />
+            <img src={require("./../Assets/" + props.name + ".svg")} alt={"Image " + props.name} height="60%" />
             <p> {props.name} </p>
         </div>
     )

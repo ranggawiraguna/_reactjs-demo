@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Dashboard from './Dashboard';
+import Dashboard from './__initial/Dashboard';
 import Intro from './Materi/00 - Intro/Intro';
 import Component from './Materi/01 - Component/Component';
 import State from './Materi/02 - State/State';

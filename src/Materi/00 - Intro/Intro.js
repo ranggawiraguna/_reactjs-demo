@@ -1,5 +1,5 @@
 import React from 'react';
-import { Frame, Container, Header2 } from '../../Components';
+import { Frame, Container, Header2 } from '../../__initial/Components';
 import logo from "./../../logo.svg"
 import './Intro.css'
 
