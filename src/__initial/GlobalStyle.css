@@ -82,14 +82,12 @@ div { box-sizing: border-box; }
 }
 
 .Contents {
-  position: relative;
   height:80vh;
   width:100%;
   box-sizing:border-box; 
   background-color:rgba(255,255,255,0.1);
-  position:relative; 
   padding: 30px 50px 50px; 
-  overflow:auto
+  overflow:auto;
 }
 .Contents::-webkit-scrollbar { width: 30px; }
 .Contents::-webkit-scrollbar-thumb { background-color: rgba(149, 177, 204,60%); border-radius: 30px; border: 10px solid #A7D0F8;}

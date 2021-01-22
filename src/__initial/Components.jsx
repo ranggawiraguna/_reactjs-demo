@@ -1,5 +1,4 @@
 import React from 'react';
-import './Components.css';
 import logo from './../logo.svg';
 
 const Frame = (props) => {
