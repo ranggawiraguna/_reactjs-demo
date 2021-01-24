@@ -1,0 +1,24 @@
+#ManipulationComponent .cart {
+  position: relative;
+  background-color: transparent;
+  border: 0;
+  outline: 0 !important;
+  margin-right: 20px;
+}
+
+#ManipulationComponent .cart > svg {
+  color: coral;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#ManipulationComponent .cart > p {
+  position: absolute;
+  bottom: 100%; left: 90%;
+  background-color: white;
+  padding: 3.5px 45% 1.5px;
+  border-radius: 100%;
+  font-size: 10px;
+  line-height: 12px;
+}

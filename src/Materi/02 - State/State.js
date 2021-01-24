@@ -8,6 +8,7 @@ class State extends React.Component {
             <Frame>
                 <Container id="State">
                     <Header2 innerValue="State" />
+                    <hr/>
                     <ListBook id="CardContainer"/>
                 </Container>
             </Frame>

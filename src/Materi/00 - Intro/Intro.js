@@ -10,6 +10,7 @@ function Intro() {
         <Frame>
             <Container id="Intro">
                 <Header2 innerValue="Intro" />
+                <hr />
                 <div className="Container">
                     <div>
                         <h3> Pengetahuan Umum Mengenai React </h3>

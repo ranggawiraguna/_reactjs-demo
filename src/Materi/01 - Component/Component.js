@@ -9,6 +9,7 @@ function Component() {
         <Frame>
             <Container id="Component">
                 <Header2 innerValue="Component" />
+                <hr />
                 <Cards id="CardContainer">
                     <Card />
                     <Card />

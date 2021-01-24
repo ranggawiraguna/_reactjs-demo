@@ -1,0 +1,88 @@
+#ManipulationComponent .card-product {
+  position: relative;
+  width: 18%;
+  height: 98%;
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+#ManipulationComponent .card-product:hover {
+  box-shadow: 1px 2px 8px 1px rgba(0, 0, 0, 0.4);
+}
+
+
+#ManipulationComponent .product-cover {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+#ManipulationComponent .product-cover > img {
+  position: absolute;
+  left: 50%; top: 50%;
+  transform: translate(-50%,-50%);
+  height: 110%;
+}
+
+#ManipulationComponent .product-name{
+  text-align: start;
+  margin: 10px;
+}
+
+#ManipulationComponent .product-price {
+  text-align: start;
+  margin: 0 10px 20px;
+}
+
+#ManipulationComponent .product-action {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+#ManipulationComponent .product-counter {
+  width: 100%;
+  height: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 7px;
+  font-size: 14px;
+}
+
+#ManipulationComponent .product-counter > button {
+  height: 100%;
+  padding: 4px 10px;
+  border: 0;
+  outline: 0 !important;
+  background-color: salmon;
+  color: white;
+  padding-top: 7px;
+  border-radius: 3px;
+}
+
+#ManipulationComponent .counter-value {
+  flex: 1;
+  background-color: white;
+  height: 100%;
+  padding: 5.8px;
+  border-radius: 3px;
+}
+
+#ManipulationComponent .product-buying {
+  font-size: 14px;
+  padding: 8px;
+  width: 100%;
+  border: 0;
+  outline: 0 !important;
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 3px;
+}
