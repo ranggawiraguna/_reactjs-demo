@@ -1,0 +1,14 @@
+#LifeCycleComponent .button-add {
+  position: fixed;
+  bottom: 140px; right: 140px;
+  font-size: 28px;
+  box-sizing: border-box;
+  width: 45px; height: 45px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3px;
+  outline: 0 !important;
+  font-weight: bold;
+}

@@ -7,7 +7,7 @@ import Component from './Materi/01 - Component/Component';
 import State from './Materi/02 - State/State';
 import Props from './Materi/03 - Props/Props';
 import Manipulation_Component from './Materi/04 - Manipulation_Component/Manipulation_Component'
-import LifeCycle_Component from './Materi/04 - Manipulation_Component/Manipulation_Component'
+import LifeCycle_Component from './Materi/05 - LifeCycle_Component/LifeCycle_Component'
 
 function App() {
   return (

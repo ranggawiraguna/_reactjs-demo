@@ -1,0 +1,48 @@
+#LifeCycleComponent .card-user {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  width: 30%;
+  height: 100px;
+  background-color: gold;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+#LifeCycleComponent .card-user > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  height: 80%;
+  width: 63%;
+  text-align: start;
+}
+
+#LifeCycleComponent .card-user > div > p {
+  width: 100%;
+  height: 24px;
+  padding: 5px;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+#LifeCycleComponent .card-user > div > p:focus{
+  outline: 0 !important;
+}
+
+#LifeCycleComponent .card-user > div > p::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background: transparent;  
+}
+
+#LifeCycleComponent .card-user button {
+  border: 0;
+  outline: 0 !important;
+  background-color: transparent;
+}
+
+#LifeCycleComponent .card-user button:hover > svg { color: dodgerblue; }

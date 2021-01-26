@@ -1,0 +1,17 @@
+#LifeCycleComponent .container-list-card {
+  position: relative;
+  width: 100%;
+  height: 88%;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  overflow: auto;
+}
+
+#LifeCycleComponent .list-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 20px;
+  row-gap: 30px;
+  padding: 30px 40px;
+}

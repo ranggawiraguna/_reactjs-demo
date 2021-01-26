@@ -1,15 +1,17 @@
 import React from 'react';
 import { Frame, Container, Header2 } from '../../__initial/Components';
+import ListCard from './Containers/ListCard/ListCard';
 
-function Props() {
+function LifeCycle_Component() {
     return (
         <Frame>
-            <Container>
+            <Container id="LifeCycleComponent">
                 <Header2 innerValue="LifeCycle Component" />
-                
+                <hr />
+                <ListCard />
             </Container>
         </Frame>
     )
 }
 
-export default Props
+export default LifeCycle_Component

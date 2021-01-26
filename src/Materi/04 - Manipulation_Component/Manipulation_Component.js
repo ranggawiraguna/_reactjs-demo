@@ -2,7 +2,7 @@ import React from 'react';
 import { Frame, Container, Header2 } from '../../__initial/Components';
 import SampleApp from './Containers/SampleApp/SampleApp';
 
-function Props() {
+function Manipulation_Component() {
     return (
         <Frame>
             <Container id="ManipulationComponent">
@@ -14,4 +14,4 @@ function Props() {
     )
 }
 
-export default Props
+export default Manipulation_Component
