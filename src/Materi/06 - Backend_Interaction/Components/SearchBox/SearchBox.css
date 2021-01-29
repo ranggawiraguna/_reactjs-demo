@@ -1,0 +1,7 @@
+#Backend_Section.container-context .form-control {
+  color: black;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.02);
+  width: 30%;
+  height: 70%;
+}

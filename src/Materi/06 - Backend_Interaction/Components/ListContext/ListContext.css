@@ -1,0 +1,29 @@
+#Backend_Interaction .list-context {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  height: 89%;
+  display: flex;
+  align-content: space-around;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+#Backend_Interaction .list-context > a {
+  height: 50%;
+  width: 33.3%;
+  padding : 20px; 
+}
+
+#Backend_Interaction .list-context > a:link {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}
+
+#Backend_Interaction .list-context > a:visited {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}

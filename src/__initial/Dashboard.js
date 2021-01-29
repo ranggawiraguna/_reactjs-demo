@@ -15,6 +15,7 @@ function Dashboard() {
                     <Link to="/Props"> <DashboardCard name="Props" /> </Link>
                     <Link to="/Manipulation-Component"> <DashboardCard name="Manipulation" /> </Link>
                     <Link to="/LifeCycle-Component"> <DashboardCard name="LifeCycle" /> </Link>
+                    <Link to="/Backend-Interaction"> <DashboardCard name="Backend" /> </Link>
                 </DashboardContainer>
             </Container>
         </Frame>

@@ -1,0 +1,30 @@
+{
+  "users" : {
+    "ranggapx_" : {
+      "username" : "ranggapx_",
+      "name" : "Rangga Wiraguna",
+      "fotoProfile" : "https://instagram.fbdo6-3.fna.fbcdn.net/v/t51.2885-19/s320x320/74881541_2550428895036461_3364842418099716096_n.jpg?_nc_ht=instagram.fbdo6-3.fna.fbcdn.net&_nc_cat=105&_nc_ohc=vxcSnrHTCAEAX_V_bfe&tp=1&oh=14558164f7e0f11f0a250e090c1ff47e&oe=603D39A5",
+      "countPost" : 9,
+      "countFollowers" : 1033,
+      "countFollowing" : 627,
+      "bio" : "\"Bukan siapa-siapa, dan gamau jadi siapa-siapa\"\nIf you ikhlas? Follow aja."  ,
+      "highlights" : [
+        {"name":"Saya", "icon":"https://instagram.fbdo6-1.fna.fbcdn.net/v/t51.12442-15/e35/c0.420.1080.1080a/s150x150/46195299_2196921613920512_7235022028600647692_n.jpg?_nc_ht=instagram.fbdo6-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=JPPGA_qg75YAX85EEMg&tp=1&oh=c9d9c471df96f5c849767f7b5b17c9e0&oe=6015184C"},
+        {"name":"Story", "icon":"https://instagram.fbdo6-2.fna.fbcdn.net/v/t51.12442-15/e35/c0.420.1080.1080a/s150x150/45881950_272054046813863_7826656516496488561_n.jpg?_nc_ht=instagram.fbdo6-2.fna.fbcdn.net&_nc_cat=111&_nc_ohc=AgfigOlg_MoAX_fmSkx&tp=1&oh=a00accf4ea0ed98bb1d72bf2e3423be3&oe=60148ECD"},
+        {"name":"Editing", "icon":"https://instagram.fbdo6-3.fna.fbcdn.net/v/t51.12442-15/e35/c0.420.1080.1080a/s150x150/45806878_277797622921368_1110714527135336273_n.jpg?_nc_ht=instagram.fbdo6-3.fna.fbcdn.net&_nc_cat=100&_nc_ohc=rfkcgsYPBUAAX_jojnC&tp=1&oh=bba3dd6f876a65afc6314cfc1b540b9e&oe=6015152F"},
+        {"name":"GIF", "icon":"https://instagram.fbdo6-2.fna.fbcdn.net/v/t51.12442-15/e35/c0.420.1080.1080a/s150x150/46583078_374606169966022_4711851326409994515_n.jpg?_nc_ht=instagram.fbdo6-2.fna.fbcdn.net&_nc_cat=110&_nc_ohc=YNeC53rLmNYAX9eFG00&tp=1&oh=d840686b57176d9d192ebf6944a20012&oe=6014FF31"}
+      ],
+      "posts" : [
+        {"photoUrl":"https://instagram.fbdo6-1.fna.fbcdn.net/v/t51.2885-15/e35/61960386_1147343232103131_5566287060606045562_n.jpg?_nc_ht=instagram.fbdo6-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=62-0aFVoAe0AX_4zLZA&tp=1&oh=a6c2e85939778b8274cd5ea9a886a1e3&oe=603B4ACA", "countLike":476, "countComment":14 },
+        {"photoUrl":"https://instagram.fbdo6-1.fna.fbcdn.net/v/t51.2885-15/e35/62013100_1031057623753974_6858279311020014498_n.jpg?_nc_ht=instagram.fbdo6-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=6V8r0-Ik0nEAX_EVLin&tp=1&oh=206db46d216ea666fa008277bde22db8&oe=603BE12A", "countLike":576, "countComment":10 },
+        {"photoUrl":"https://instagram.fbdo6-3.fna.fbcdn.net/v/t51.2885-15/e35/61753805_608902819591315_657801758654921477_n.jpg?_nc_ht=instagram.fbdo6-3.fna.fbcdn.net&_nc_cat=107&_nc_ohc=VAjTNlgLroUAX9nWhm1&tp=1&oh=636e020951fc36b658b017058a60cd93&oe=603A9D5A", "countLike":481, "countComment":18 },
+        {"photoUrl":"https://instagram.fbdo6-3.fna.fbcdn.net/v/t51.2885-15/e35/56622637_2153851884740425_7220027832198501403_n.jpg?_nc_ht=instagram.fbdo6-3.fna.fbcdn.net&_nc_cat=101&_nc_ohc=ymiiTQEbzCAAX9G6tS4&tp=1&oh=d642249e571639adbab55dc4bbd8fa9a&oe=603B1BDE", "countLike":358, "countComment":5 },
+        {"photoUrl":"https://instagram.fbdo6-3.fna.fbcdn.net/v/t51.2885-15/e35/57460064_169780877263634_1197858674558211521_n.jpg?_nc_ht=instagram.fbdo6-3.fna.fbcdn.net&_nc_cat=102&_nc_ohc=6IfwCw-cGLMAX9g2W8f&tp=1&oh=5a45813db7904b9ecce8aa3392d5b138&oe=603A9701", "countLike":423, "countComment":7 },
+        {"photoUrl":"https://instagram.fbdo6-3.fna.fbcdn.net/v/t51.2885-15/e35/57032365_149920769379941_1488868357904703550_n.jpg?_nc_ht=instagram.fbdo6-3.fna.fbcdn.net&_nc_cat=105&_nc_ohc=qWkXCV83gsEAX95vjO5&tp=1&oh=32d7e2aa234b3f773ec7f8f22c787432&oe=603AEA82", "countLike":410, "countComment":8 },
+        {"photoUrl":"https://instagram.fbdo6-2.fna.fbcdn.net/v/t51.2885-15/e35/51687497_2209467269275630_5338217632557095939_n.jpg?_nc_ht=instagram.fbdo6-2.fna.fbcdn.net&_nc_cat=110&_nc_ohc=ZdXdFJ4oXsAAX-Rwb3N&tp=1&oh=d59c26986841401861be5e6734533875&oe=603DBF59", "countLike":323, "countComment":55 },
+        {"photoUrl":"https://instagram.fbdo6-3.fna.fbcdn.net/v/t51.2885-15/e35/51448054_1985220148243891_3881840055316417523_n.jpg?_nc_ht=instagram.fbdo6-3.fna.fbcdn.net&_nc_cat=107&_nc_ohc=F-CirwhqbTAAX91cuI6&tp=1&oh=0e44de06518a36e4dd5a3263fd9aa70e&oe=603AEA9C", "countLike":313, "countComment":20 },
+        {"photoUrl":"https://instagram.fbdo6-2.fna.fbcdn.net/v/t51.2885-15/e35/52014128_352339525615660_9028041447896298655_n.jpg?_nc_ht=instagram.fbdo6-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=tpOuGi2yLw4AX_O2SRZ&tp=1&oh=a0b952fa7bad922b2dc255329127cfdb&oe=603A6E19", "countLike":375, "countComment":65 }
+      ]
+    }
+  }
+}

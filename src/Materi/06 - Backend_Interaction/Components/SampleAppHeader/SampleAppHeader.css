@@ -1,0 +1,35 @@
+#Backend_Section.container-context .header-sample-app {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  height: 15%;
+  width: 100%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#Backend_Section.container-context .header-sample-app > img { transform: translateY(5px); }
+
+#Backend_Section.container-context .header-sample-app .icon-group {
+  height: 60%;
+  display: flex;
+  gap: 1vw;
+}
+
+#Backend_Section.container-context .header-sample-app .icon-group button {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  outline: 0 !important;
+  border: 0;
+  height: 100%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#Backend_Section.container-context .header-sample-app .icon-group button:last-child {
+  border-radius: 100%;
+  background-color: red;
+  overflow: hidden;
+}

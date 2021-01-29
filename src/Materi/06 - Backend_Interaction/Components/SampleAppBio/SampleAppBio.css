@@ -1,0 +1,107 @@
+#Backend_Section.container-context .sample-app-bio{
+  width: 30%;
+  height: 100%;
+  padding: 15px 20px 20px;
+}
+
+#Backend_Section.container-context .bio-profile {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+#Backend_Section.container-context .profile-one {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  row-gap: 20px;
+}
+
+#Backend_Section.container-context .profile-one-foto {
+  width: 40%;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Backend_Section.container-context .profile-one-foto > span {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  overflow: hidden;
+}
+#Backend_Section.container-context .profile-one-top { 
+  font-size: 16px; 
+  font-weight: bolder; 
+}
+
+#Backend_Section.container-context .profile-one-top > button { 
+  height: 100%;
+  background-color: transparent;
+  border: 0;
+  outline: 0 !important;
+}
+
+#Backend_Section.container-context .profile-one-bottom {
+  font-size: 12px; 
+  line-height: 15px;
+  gap: 15px; 
+}
+
+#Backend_Section.container-context .profile-one-bottom > p { 
+  cursor: pointer; 
+}
+
+#Backend_Section.container-context .profile-one-top, #Backend_Section.container-context .profile-one-bottom {
+  padding: 0 10px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#Backend_Section.container-context .bio-info-name {
+  text-align: start;
+  font-weight: bolder;
+  font-size: 16px;
+} 
+
+#Backend_Section.container-context .bio-info-bio {
+  text-align: start;
+  font-size: 12px;
+  line-height: 16px;
+} 
+
+#Backend_Section.container-context .bio-highlights {
+  width: 100%;
+  height: 35%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#Backend_Section.container-context .bio-highlights > div {
+  font-size: 14px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#Backend_Section.container-context .bio-highlights > div > span {
+  cursor: pointer;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  border: 5px solid whitesmoke;
+  align-items: center;
+  border-radius: 100%;
+  overflow: hidden;
+}

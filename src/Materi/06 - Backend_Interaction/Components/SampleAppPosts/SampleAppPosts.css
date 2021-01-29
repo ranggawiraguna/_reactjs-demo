@@ -1,0 +1,52 @@
+#Backend_Section.container-context .sample-app-posts{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  row-gap: 3px;
+  padding: 15px 20px 20px;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+#Backend_Section.container-context .posts-header{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  top: 0;
+  width: 100%;
+  height: 15%;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+#Backend_Section.container-context .posts-header > span {
+  color: #8e8e8e;
+  cursor: pointer;
+  height: 100%;
+  padding: 0 10px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#Backend_Section.container-context .posts-header > span > p{ margin-top: 2px; }
+
+#Backend_Section.container-context .posts-header > span.active { 
+  border-top: 2px solid black;
+  color: black;
+  font-weight: bold;
+}
+
+#Backend_Section.container-context .posts-header > span.active > * { margin-bottom: 2px; }
+
+#Backend_Section.container-context .thumbnail-post {
+  cursor: pointer;
+  width: 33%;
+  background-size: cover;
+  background-position: center;
+}
+
+#Backend_Section.container-context .thumbnail-post > svg { color:transparent; }
