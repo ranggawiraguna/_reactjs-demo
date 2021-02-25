@@ -1,0 +1,77 @@
+#Backend_Section.container-context .modal {
+  position: absolute;
+  top: 30px; right: 10px; bottom: 0; left: 10px; 
+  width: auto; height: auto;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#Backend_Section.container-context .modal-dialog {
+  position: absolute;
+  display: inline-block;
+  top: 0; right: 0; bottom: 0; left: 0;
+}
+
+#Backend_Section.container-context .modal-header {
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px 10px 20px;
+}
+
+#Backend_Section.container-context .modal-header > h5 {
+  margin: 0;
+}
+
+#Backend_Section.container-context .modal-header > button.close {
+  padding: 0 20px;
+  font-size: 28px;
+}
+
+#Backend_Section.container-context .modal-content {
+  box-sizing: border-box;
+  width: 100%; height: 100%;
+}
+
+#Backend_Section.container-context .modal-content {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#Backend_Section.container-context .modal-content button {
+  font-size: 12px;
+}
+
+#Backend_Section.container-context .modal-footer {
+  padding: 5px;
+}
+
+#Backend_Section.container-context .modal-body {
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 20px;
+}
+
+#Backend_Section.container-context .modal-body > span {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#Backend_Section.container-context .modal-body > span > span {
+  white-space: nowrap;
+  overflow-x: auto;
+  text-align: start;
+  font-size: inherit;
+  height: auto;
+  padding: 3px 5px;
+  width: 100%;
+}
+
+#Backend_Section.container-context .modal-body > span > span::-webkit-scrollbar { display: none; }
+#Backend_Section.container-context .modal-body > span > span { -ms-overflow-style: none;  scrollbar-width: none; }
+

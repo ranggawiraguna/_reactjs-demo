@@ -1,20 +1,20 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import './__initial/GlobalStyle.css';
-import Dashboard from './__initial/Dashboard';
-import Intro from './Materi/00 - Intro/Intro';
-import Component from './Materi/01 - Component/Component';
-import State from './Materi/02 - State/State';
-import Props from './Materi/03 - Props/Props';
-import Manipulation_Component from './Materi/04 - Manipulation_Component/Manipulation_Component'
-import LifeCycle_Component from './Materi/05 - LifeCycle_Component/LifeCycle_Component'
-import Backend_Interaction from './Materi/06 - Backend_Interaction/Backend_Interaction'
-import Backend_LocalApi from './Materi/06 - Backend_Interaction/SubContext/060 - LocalApi'
-import Backend_FakeApi from './Materi/06 - Backend_Interaction/SubContext/061 - FakeApi'
-import Backend_Post from './Materi/06 - Backend_Interaction/SubContext/062 - Post'
-import Backend_Get from './Materi/06 - Backend_Interaction/SubContext/063 - Get'
-import Backend_Put from './Materi/06 - Backend_Interaction/SubContext/064 - Put'
-import Backend_Delete from './Materi/06 - Backend_Interaction/SubContext/065 - Delete'
+import './App/GlobalStyle.css';
+import Dashboard from './App/Dashboard';
+import Intro from './Pages/00 - Intro/Intro';
+import Component from './Pages/01 - Component/Component';
+import State from './Pages/02 - State/State';
+import Props from './Pages/03 - Props/Props';
+import Manipulation_Component from './Pages/04 - Manipulation_Component/Manipulation_Component';
+import LifeCycle_Component from './Pages/05 - LifeCycle_Component/LifeCycle_Component';
+import Backend_Interaction from './Pages/06 - Backend_Interaction/Backend_Interaction';
+import Backend_LocalApi from './Pages/06 - Backend_Interaction/SubContext/pages/060 - LocalApi';
+import Backend_FakeApi from './Pages/06 - Backend_Interaction/SubContext/pages/061 - FakeApi';
+import Backend_Post from './Pages/06 - Backend_Interaction/SubContext/pages/062 - Post';
+import Backend_Get from './Pages/06 - Backend_Interaction/SubContext/pages/063 - Get';
+import Backend_Put from './Pages/06 - Backend_Interaction/SubContext/pages/064 - Put';
+import Backend_Delete from './Pages/06 - Backend_Interaction/SubContext/pages/065 - Delete';
 
 function App() {
   return (

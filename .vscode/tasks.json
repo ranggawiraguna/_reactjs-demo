@@ -1,0 +1,34 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Reset Data",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        ".\\public\\config\\reset-api.js"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Client App",
+      "type": "shell",
+      "command": "npm",
+      "args": [
+        "start"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Server Backend-Interaction",
+      "type": "shell",
+      "command": "json-server",
+      "args": [
+        ".\\src\\Server\\API\\CurriculumVitae.json",
+        "--config",
+        ".\\public\\config\\json-server.json"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}

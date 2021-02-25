@@ -1,0 +1,31 @@
+#Backend_Section.container-context .container-operation .tab-pane > div {
+  width : 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#Backend_Section.container-context .container-operation .table { 
+  font-size: 14px;
+  table-layout: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 0;
+}
+
+#Backend_Section.container-context .container-operation .table button {
+  font-size: 12px;
+} 
+
+#Backend_Section.container-context .container-operation .table th, #Backend_Section.container-context .container-operation .table td {
+  vertical-align: middle;
+  text-overflow: ellipsis;
+}
+
+#Backend_Section.container-context .container-operation .table th.index, #Backend_Section.container-context .container-operation .table td.index {
+  width: 50px;
+}
+
+#Backend_Section.container-context .container-operation .table th.action, #Backend_Section.container-context .container-operation .table td.action {
+  width: 120px;
+}

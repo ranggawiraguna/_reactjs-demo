@@ -1,0 +1,33 @@
+#Backend_Section.container-context .json-preview {
+  flex: 1;
+  background-color: white;
+  border-radius: 5px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#Backend_Section.container-context .json-preview > h3 {
+  font-weight: bolder;
+  padding: 15px 0;
+  color: white;
+  background-color: black;
+}
+
+#Backend_Section.container-context .json-preview > div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#Backend_Section.container-context .json-preview > div > div {
+  text-align: start;
+  top: 0; left: 0; right: 0;
+  margin: 20px 0;
+  padding: 0 60px;
+  overflow: auto;
+  height: auto;
+  width: auto;
+  position: absolute;
+  padding-bottom: 20px;
+}

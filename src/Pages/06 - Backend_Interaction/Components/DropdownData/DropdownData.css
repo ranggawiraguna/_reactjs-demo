@@ -1,0 +1,15 @@
+#Backend_Section.container-context .container-operation nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;  
+}
+
+#Backend_Section.container-context .container-operation .dropdown .btn {
+  padding: 5px 10px;
+  transform: translateX(-6px);
+  font-size: 12px;
+}
+
+#Backend_Section.container-context .container-operation .dropdown .dropdown-item {
+  font-size: 10px;
+}
