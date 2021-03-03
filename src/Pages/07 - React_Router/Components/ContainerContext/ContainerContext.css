@@ -1,0 +1,13 @@
+#Router_Section.container-context {
+  width: 100%;
+  height: 89%;
+  background-color: white;
+  border: 5px solid lightgray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#Router_Section.container-context.crud {
+  background-color: lightseagreen;
+}

@@ -1,0 +1,98 @@
+{
+  "Information": {
+    "name" : "Madang",
+    "about" :"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus explicabo rerum magnam nostrum ad voluptatibus saepe sapiente dolore eum distinctio hic, accusamus modi, in reiciendis! Eaque, alias officiis? Quam aut quis enim accusantium non sit a odit explicabo deleniti iusto est magnam magni tempore recusandae officia, at doloremque commodi exercitationem molestias blanditiis obcaecati provident? Incidunt culpa accusantium rem blanditiis suscipit magni, quaerat nesciunt ad. Quis eligendi animi modi nesciunt a nihil repellat, laboriosam autem maxime perferendis quibusdam deleniti minima voluptas obcaecati dolorum tenetur, dolores, saepe odit iusto quod deserunt fugit! Ad nam perspiciatis dolorum cupiditate. Ducimus, voluptates fugit, molestiae vel exercitationem nam delectus quidem excepturi, sapiente iusto maxime tempora doloremque harum culpa rerum ex eaque esse dicta enim corrupti nostrum voluptas amet perspiciatis pariatur! Doloremque, expedita cumque, fugiat hic atque, perspiciatis quo quas eos rem eius tempore illo debitis sunt? Quos iusto, repellendus quae aut eius impedit exercitationem ullam, deserunt praesentium necessitatibus dolor molestiae voluptatibus odio blanditiis debitis adipisci perferendis provident sit? Deleniti inventore nobis tenetur nulla eius sapiente, magnam delectus? Commodi deleniti quas, a omnis minima, iste natus odio consectetur deserunt optio error magni et placeat sit culpa minus facilis. Dolorum labore molestias sunt, ut sequi sed quod itaque?"
+  },
+  "Products": [
+    {
+      "id": 1,
+      "name": "Hamburger",
+      "image" : "https://img.icons8.com/doodle/452/hamburger.png",
+      "information": "Hamburger (also burger for short) is a sandwich consisting of one or more cooked patties of ground meat.",
+      "category": "Food",
+      "size": "Small, Medium, Large",
+      "varian": "Cheese, Beef, Fish, Chicken, Mix"
+    },
+    {
+      "id": 2,
+      "name": "Pizza",
+      "image" : "https://img.icons8.com/doodle/452/pizza--v1.png",
+      "information": "Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped.",
+      "category": "Food",
+      "size": "Small, Medium, Large",
+      "varian": "veggie, Double Pepporoni, Magherita, Bacon & BBQ"
+    },
+    {
+      "id": 3,
+      "name": "Hot Dog",
+      "image" : "https://img.icons8.com/doodle/452/hot-dog.png",
+      "information": "Hot Dog is a food consisting of a grilled or steamed sausage served in the slit of a partially sliced bun.",
+      "category": "Food",
+      "size": "Small, Medium, Large",
+      "varian": "Chicago, Bacon Bleu, BBQ, Vegetarian"
+    },
+    {
+      "id": 4,
+      "name": "French Fries",
+      "image" : "https://img.icons8.com/doodle/452/french-fries.png",
+      "information": "French fries, or simply fries, chips, finger chips, are batonnet or allumette-cut deep-fried potatoes.",
+      "category": "Food",
+      "size": "Small, Medium, Large",
+      "varian": "Double Fries, Twister Potato, Cheddar Fries, Chicken Nugget"
+    },
+    {
+      "id": 5,
+      "name": "Rice Bowl",
+      "image" : "https://img.icons8.com/doodle/452/rice-bowl.png",
+      "information": "Rice bowl is a Japanese cuisine that serves rice in a bowl along with side dishes that are placed on it.",
+      "category": "Food",
+      "size": "Small, Medium, Large",
+      "varian": "Black Cattle, Kyuri, Birdman, Gamba Katsu"
+    },
+    {
+      "id": 6,
+      "name": "Lemonade",
+      "image" : "https://img.icons8.com/doodle/452/lemonade.png",
+      "information": "Lemonade is a sweetened lemon-flavored beverage. There are varieties of lemonade found throughout the world.",
+      "category": "Drink",
+      "size": "One Glass",
+      "varian": "Matcha, Seasonal, Espresso"
+    },
+    {
+      "id": 7,
+      "name": "Juice Bottle",
+      "image" : "https://img.icons8.com/doodle/452/juice-bottle.png",
+      "information": "Juice is a drink made from the extraction or pressing of the natural liquid contained in fruit and vegetables.",
+      "category": "Drink",
+      "size": "One Glass",
+      "varian": "Orange, Avocado, Mango, Soursop, etc"
+    },
+    {
+      "id": 8,
+      "name": "Bread",
+      "image" : "https://img.icons8.com/doodle/452/bread--v1.png",
+      "information": "Bread is a staple food prepared from a dough of flour and water, usually by baking. Throughout recorded history.",
+      "category": "Snack",
+      "size": "One pcs",
+      "varian": "Cheese, Chocolate, Strawberry, Blueberry, etc"
+    },
+    {
+      "id": 9,
+      "name": "Cake",
+      "image" : "https://img.icons8.com/doodle/452/cake--v1.png",
+      "information": "Cake is a form of sweet food made from flour, sugar, and other ingredients, that is usually baked.",
+      "category": "Snack",
+      "size": "One pcs",
+      "varian": "Brownies, Cakes, Dessert, Cupcake"
+    },
+    {
+      "id": 10,
+      "name": "Ice Cream",
+      "image" : "https://img.icons8.com/doodle/452/ice-cream-cone--v1.png",
+      "information": "Ice cream is a sweetened frozen food typically eaten as a snack or dessert.",
+      "category": "Snack",
+      "size": "One pcs",
+      "varian": "Vanilla, Chocolate, Strawberry, Blueberry, etc"
+    }
+  ]
+}

@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App/GlobalStyle.css';
 import Dashboard from './App/Dashboard';
-import Intro from './Pages/00 - Intro/Intro';
 import Component from './Pages/01 - Component/Component';
 import State from './Pages/02 - State/State';
 import Props from './Pages/03 - Props/Props';
@@ -15,25 +14,46 @@ import Backend_Post from './Pages/06 - Backend_Interaction/SubContext/pages/062 
 import Backend_Get from './Pages/06 - Backend_Interaction/SubContext/pages/063 - Get';
 import Backend_Put from './Pages/06 - Backend_Interaction/SubContext/pages/064 - Put';
 import Backend_Delete from './Pages/06 - Backend_Interaction/SubContext/pages/065 - Delete';
+import React_Router from './Pages/07 - React_Router/React_Router';
+import Router_Basic from './Pages/07 - React_Router/SubContext/070 - BasicRouter';
+import Router_Structuring_Naming from './Pages/07 - React_Router/SubContext/071 - Sructuring-Naming';
+import Router_SendingParams from './Pages/07 - React_Router/SubContext/072 - SendingParams';
+import ArticleDetail from './Pages/07 - React_Router/Containers/Pages/ArticleDetail/ArticleDetail';
+import State_Management from './Pages/08 - State_Management/State_Management';
+import Global_API from './Pages/09 - Global_API/Global_API';
+import Hooks from './Pages/10 - Hooks/Hooks';
+import Firebase from './Pages/11 - Firebase/Firebase';
+import Example_Projects from './Pages/12 - Example_Projects/Example_Projects';
+
 
 function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" exact component={Dashboard} />
-        <Route path="/Intro" exact component={Intro} />
-        <Route path="/Component" exact component={Component} />
-        <Route path="/State" exact component={State} />
-        <Route path="/Props" exact component={Props} />
-        <Route path="/Manipulation-Component" exact component={Manipulation_Component} />
-        <Route path="/LifeCycle-Component" exact component={LifeCycle_Component} />
-        <Route path="/Backend-Interaction" exact component={Backend_Interaction} />
-        <Route path="/Backend-Interaction/Local-Api" exact component={Backend_LocalApi} />
-        <Route path="/Backend-Interaction/Fake-Api" exact component={Backend_FakeApi} />
-        <Route path="/Backend-Interaction/Get" exact component={Backend_Get} />
-        <Route path="/Backend-Interaction/Delete" exact component={Backend_Delete} />
-        <Route path="/Backend-Interaction/Post" exact component={Backend_Post} />
-        <Route path="/Backend-Interaction/Put" exact component={Backend_Put} />
+        <Route exact path="/" component={Dashboard} />
+        <Route exact path="/Component" component={Component} />
+        <Route exact path="/State" component={State} />
+        <Route exact path="/Props" component={Props} />
+        <Route exact path="/Manipulation-Component" component={Manipulation_Component} />
+        <Route exact path="/LifeCycle-Component" component={LifeCycle_Component} />
+        <Route exact path="/Backend-Interaction" component={Backend_Interaction} />
+        <Route exact path="/Backend-Interaction/Local-Api" component={Backend_LocalApi} />
+        <Route exact path="/Backend-Interaction/Fake-Api" component={Backend_FakeApi} />
+        <Route exact path="/Backend-Interaction/Get" component={Backend_Get} />
+        <Route exact path="/Backend-Interaction/Delete" component={Backend_Delete} />
+        <Route exact path="/Backend-Interaction/Post" component={Backend_Post} />
+        <Route exact path="/Backend-Interaction/Put" component={Backend_Put} />
+        <Route exact path="/React-Router" component={React_Router} />
+        <Route exact path="/React-Router/Basic-Router" component={Router_Basic} />
+        <Route exact path="/React-Router/Structuring-Naming" component={Router_Structuring_Naming} />
+        <Route exact path="/React-Router/Sending-Params" component={Router_SendingParams} />
+        <Route exact path="/React-Router/Sending-Params/Article" component={Router_SendingParams} />
+        <Route exact path="/React-Router/Sending-Params/Article/:id" component={ArticleDetail} />
+        <Route exact path="/State-Management" component={State_Management} />
+        <Route exact path="/Global-API" component={Global_API} />
+        <Route exact path="/Hooks" component={Hooks} />
+        <Route exact path="/Firebase" component={Firebase} />
+        <Route exact path="/Example-Projects" component={Example_Projects} />
       </Switch>
     </BrowserRouter>
   )

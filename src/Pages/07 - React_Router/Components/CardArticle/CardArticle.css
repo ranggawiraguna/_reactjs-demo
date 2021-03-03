@@ -1,0 +1,60 @@
+#Router_Section.container-context .card-article { 
+  cursor: pointer; 
+  display: flex;
+  justify-content: space-between;
+  width: 410px;
+  height: 150px; 
+  background-color: white; 
+  padding: 10px; 
+  box-shadow: 1px 2px 10px 3px rgba(0,0,0,0.2);
+  color: inherit;
+  border-radius: 3px;
+  text-decoration: inherit;
+}
+
+#Router_Section.container-context .card-article:hover { 
+  box-shadow: 1px 2px 10px 3px rgba(25,125,255,0.4);; 
+}
+
+#Router_Section.container-context .card-article:link { 
+  color: inherit;
+  text-decoration: inherit;
+}
+
+#Router_Section.container-context .card-article > span {
+  position: relative; 
+  overflow: hidden; 
+  height: 100%; 
+  background-color: black
+} 
+
+#Router_Section.container-context .card-article > span > img {
+  height: 100%;
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%) 
+}
+
+#Router_Section.container-context .card-article > div {
+  flex: 1;
+  height: 100%;
+  padding: 10px;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px
+}
+
+#Router_Section.container-context .card-article > div > h4{
+  flex: 1;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5
+}
+
+#Router_Section.container-context .card-article > div > p {
+  text-align: end;
+  font-size: 14px;
+  color: gray;
+}

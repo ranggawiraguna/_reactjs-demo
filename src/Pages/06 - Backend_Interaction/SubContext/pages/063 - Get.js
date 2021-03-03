@@ -37,7 +37,7 @@ class Backend_Get extends React.Component {
     });
   }
 
-  getRouter = async () => `http://localhost:${await fetch('/config/json-server.json').then(response => response.json()).then(json => json.port)}`;
+  getRouter = async () => `http://localhost:${await fetch('/config/ports.json').then(response => response.json()).then(json => json.Backend_Interaction)}`;
 
   getData = (url = '') => fetch(url).then(response => response.json()).then(json => json);
 

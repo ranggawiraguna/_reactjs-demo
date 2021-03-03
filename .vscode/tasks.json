@@ -25,8 +25,30 @@
       "command": "json-server",
       "args": [
         ".\\src\\Server\\API\\CurriculumVitae.json",
-        "--config",
-        ".\\public\\config\\json-server.json"
+        "--port",
+        "3001"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Server React-Router-Basic",
+      "type": "shell",
+      "command": "json-server",
+      "args": [
+        ".\\src\\Server\\API\\Restaurant.json",
+        "--port",
+        "3002"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Server React-Router-Params",
+      "type": "shell",
+      "command": "json-server",
+      "args": [
+        ".\\src\\Server\\API\\Contents.json",
+        "--port",
+        "3003"
       ],
       "problemMatcher": []
     }

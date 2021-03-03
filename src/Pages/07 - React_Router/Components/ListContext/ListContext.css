@@ -1,0 +1,28 @@
+#React_Router .list-context {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  height: 89%;
+  display: flex;
+  align-content: space-around;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+#React_Router .list-context > a {
+  height: 100%;
+  width: 33.3%;
+  padding : 20px; 
+}
+
+#React_Router .list-context > a:link {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}
+
+#React_Router .list-context > a:visited {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}

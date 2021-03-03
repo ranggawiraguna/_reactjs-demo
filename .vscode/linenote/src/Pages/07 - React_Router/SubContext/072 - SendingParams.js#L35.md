@@ -1,0 +1,1 @@
+Route untuk detail artikel dibuat pada App.js karena proses disini menerapkan berpindah halaman ke satu halaman lain

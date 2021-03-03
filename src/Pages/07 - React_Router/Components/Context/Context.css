@@ -1,0 +1,37 @@
+#React_Router .context {
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  background-color: rgba(169, 255, 255, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  height: 100%;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+}
+
+#React_Router .context:hover {
+  box-shadow: 0 0 10px 3px rgba(50, 100, 255, 0.25);
+}
+
+#React_Router .context > img {
+  height: 50%;
+}
+
+#React_Router .context > h3 {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+#React_Router .context > p {
+  user-select: text;
+  line-height: 18px;
+  font-size: 14px;
+  align-self: center;
+  margin: 10px 15px 10px;
+}
