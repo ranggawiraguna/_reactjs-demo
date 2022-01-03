@@ -1,0 +1,9 @@
+#ContainerExample{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 70%;
+  height: 89%;
+  margin: 0 auto;
+  border: 5px solid lightgray
+}

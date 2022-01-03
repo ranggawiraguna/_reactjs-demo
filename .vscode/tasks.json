@@ -51,6 +51,17 @@
         "3003"
       ],
       "problemMatcher": []
+    },
+    {
+      "label": "Server Redux-Implementation",
+      "type": "shell",
+      "command": "json-server",
+      "args": [
+        ".\\src\\Server\\API\\Clothes.json",
+        "--port",
+        "3004"
+      ],
+      "problemMatcher": []
     }
   ]
 }

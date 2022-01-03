@@ -1,6 +1,6 @@
 import React from 'react';
 import { Frame, Container, AppLogo, Header2, DashboardContainer, DashboardCard } from './Components';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 function Dashboard() {
     return (
@@ -20,7 +20,7 @@ function Dashboard() {
                     <Link to="/Global-API"> <DashboardCard name="API" /> </Link>
                     <Link to="/Hooks"> <DashboardCard name="Hooks" /> </Link>
                     <Link to="/Firebase"> <DashboardCard name="Firebase" /> </Link>
-                    <Link to="/Example-Projects"> <DashboardCard name="Projects" /> </Link>
+                    <Link to="/Example-Projects"> <DashboardCard name="Example" /> </Link>
                 </DashboardContainer>
             </Container>
         </Frame>

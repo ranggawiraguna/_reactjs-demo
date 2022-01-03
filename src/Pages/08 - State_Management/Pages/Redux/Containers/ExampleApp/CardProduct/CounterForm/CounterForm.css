@@ -1,0 +1,60 @@
+#Redux_Implementation .dashboard-section .card-product .counter-form {
+  width: 100%;
+  flex: 1;
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+}
+
+#Redux_Implementation .dashboard-section .card-product .counter-form * {
+  outline: 0 !important;
+  border: 0;
+}
+
+#Redux_Implementation .dashboard-section .card-product .counter-form .form {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+  align-items: center;
+}
+
+#Redux_Implementation .dashboard-section .card-product .counter-form .form button {
+  padding: 5px 10px;
+  background-color: rgb(255, 147, 58);
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+}
+
+#Redux_Implementation .dashboard-section .card-product .counter-form .form input {
+  width: 0;
+  flex: 1;
+  text-align: center;
+  font-size: 12px;
+  height: 28px;
+  border-radius: 5px;
+  border: 3px solid rgba(30, 144, 255, 0.2);
+}
+
+#Redux_Implementation .dashboard-section .card-product .counter-form .button-submit {
+  width: 100%;
+  background-color: #A3BAFF;
+  color: white;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#Redux_Implementation .dashboard-section .card-product .counter-form .form button:hover, 
+#Redux_Implementation .dashboard-section .card-product .counter-form .button-submit:hover, 
+#Redux_Implementation .dashboard-section .card-product .counter-form .form input:hover, 
+#Redux_Implementation .dashboard-section .card-product .counter-form .form input:focus {
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#Redux_Implementation .dashboard-section .card-product .counter-form .form input:focus {
+  border: 3px solid rgba(30, 144, 255, 0.4); 
+}

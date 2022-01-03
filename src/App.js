@@ -20,11 +20,16 @@ import Router_Structuring_Naming from './Pages/07 - React_Router/SubContext/071 
 import Router_SendingParams from './Pages/07 - React_Router/SubContext/072 - SendingParams';
 import ArticleDetail from './Pages/07 - React_Router/Containers/Pages/ArticleDetail/ArticleDetail';
 import State_Management from './Pages/08 - State_Management/State_Management';
+import State_Management_Redux from './Pages/08 - State_Management/Pages/Redux/State_Management_Redux';
+import Redux_BasicState from './Pages/08 - State_Management/Pages/Redux/SubContext/081 - Redux_BasicState';
+import Redux_Implementation from './Pages/08 - State_Management/Pages/Redux/SubContext/082 - Redux_Implementation';
+import State_Management_Context from './Pages/08 - State_Management/Pages/Context/State_Management_Context';
 import Global_API from './Pages/09 - Global_API/Global_API';
 import Hooks from './Pages/10 - Hooks/Hooks';
+import BasicHooks from './Pages/10 - Hooks/SubContext/101 - BasicHooks';
+import SideEffectHooks from './Pages/10 - Hooks/SubContext/102 - SideEffectHooks';
 import Firebase from './Pages/11 - Firebase/Firebase';
 import Example_Projects from './Pages/12 - Example_Projects/Example_Projects';
-
 
 function App() {
   return (
@@ -50,8 +55,14 @@ function App() {
         <Route exact path="/React-Router/Sending-Params/Article" component={Router_SendingParams} />
         <Route exact path="/React-Router/Sending-Params/Article/:id" component={ArticleDetail} />
         <Route exact path="/State-Management" component={State_Management} />
+        <Route exact path="/State-Management/Redux" component={State_Management_Redux} />
+        <Route exact path="/State-Management/Redux/Basic-State" component={Redux_BasicState} />
+        <Route path="/State-Management/Redux/Implementation" component={Redux_Implementation} />
+        <Route exact path="/State-Management/Context" component={State_Management_Context} />
         <Route exact path="/Global-API" component={Global_API} />
         <Route exact path="/Hooks" component={Hooks} />
+        <Route exact path="/Hooks/Basic-Hooks" component={BasicHooks} />
+        <Route exact path="/Hooks/Side-Effect" component={SideEffectHooks} />
         <Route exact path="/Firebase" component={Firebase} />
         <Route exact path="/Example-Projects" component={Example_Projects} />
       </Switch>

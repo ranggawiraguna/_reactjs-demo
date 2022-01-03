@@ -1,0 +1,84 @@
+{
+  "Products" : [
+    {
+      "id" : 1,
+      "image" : "https://queenbeer.com/wp-content/uploads/2020/10/CHICAGO-PH-680x680.jpg",
+      "articleName" : "CHICAGO BLACK PULLOVER HOODIE",
+      "brandIcon" : "https://queenbeer.com/wp-content/uploads/2019/06/icon.png",
+      "brandName" : "Queenbeer",
+      "price" : "340.000"
+    },
+    {
+      "id" : 2,
+      "image" : "https://queenbeer.com/wp-content/uploads/2021/01/1605519228988-1-680x680.jpg",
+      "articleName" : "JESSIE NAVY T-SHIRT",
+      "brandIcon" : "https://queenbeer.com/wp-content/uploads/2019/06/icon.png",
+      "brandName" : "Queenbeer",
+      "price" : "150.000"
+    },
+    {
+      "id" : 3,
+      "image" : "https://queenbeer.com/wp-content/uploads/2020/03/MARLINE-BLACK-4-680x680.jpg",
+      "articleName" : "MARLINE BLACK BAGPACK",
+      "brandIcon" : "https://queenbeer.com/wp-content/uploads/2019/06/icon.png",
+      "brandName" : "Queenbeer",
+      "price" : "350.000"
+    },
+    {
+      "id" : 4,
+      "image" : "https://cdn.shopify.com/s/files/1/0516/3378/2976/products/md_5c7cf7cd0f919_400x.jpg?v=1611835215",
+      "articleName" : "FOREVER NIJI PH LOGO BLACK",
+      "brandIcon" : "https://pbs.twimg.com/profile_images/710322111198449664/ri0Hrith.jpg",
+      "brandName" : "SundaySundayCo",
+      "price" : "385.000"
+    },
+    {
+      "id" : 5,
+      "image" : "https://cdn.shopify.com/s/files/1/0516/3378/2976/products/Shopee_14a1fdfba2cf3cb611e73d79556a2b38_400x.jpg?v=1611890605",
+      "articleName" : "WATER CONE NAVY",
+      "brandIcon" : "https://pbs.twimg.com/profile_images/710322111198449664/ri0Hrith.jpg",
+      "brandName" : "SundaySundayCo",
+      "price" : "385.000"
+    },
+    {
+      "id" : 6,
+      "image" : "https://cdn.shopify.com/s/files/1/0516/3378/2976/products/cat-thingz-navy1_400x.jpg?v=1611797872",
+      "articleName" : "CAT THINGZ NAVY",
+      "brandIcon" : "https://pbs.twimg.com/profile_images/710322111198449664/ri0Hrith.jpg",
+      "brandName" : "SundaySundayCo",
+      "price" : "185.000"
+    },
+    {
+      "id" : 7,
+      "image" : "https://cdn.shopify.com/s/files/1/0516/3378/2976/products/PicsArt_01-29-11.01.01_800x.jpg?v=1611892907",
+      "articleName" : "WATER CONE NAVY",
+      "brandIcon" : "https://pbs.twimg.com/profile_images/710322111198449664/ri0Hrith.jpg",
+      "brandName" : "SundaySundayCo",
+      "price" : "185.000"
+    },
+    {
+      "id" : 8,
+      "image" : "https://popculine.com/wp-content/uploads/2020/10/PH-1-WIT-AND-JOY-min-840x840.jpg",
+      "articleName" : "Pullover Hoodie – Wit and joy",
+      "brandIcon" : "https://pbs.twimg.com/profile_images/788646900220190720/bWLw5gxJ_400x400.jpg",
+      "brandName" : "Popculine",
+      "price" : "310.000"
+    },
+    {
+      "id" : 9,
+      "image" : "https://popculine.com/wp-content/uploads/2020/10/1-WBB-B-THIS-LIFE-IS-A-TRIP-min-840x840.jpg",
+      "articleName" : "Windbreaker – This Life Is A Trip",
+      "brandIcon" : "https://pbs.twimg.com/profile_images/788646900220190720/bWLw5gxJ_400x400.jpg",
+      "brandName" : "Popculine",
+      "price" : "320.000"
+    },
+    {
+      "id" : 10,
+      "image" : "https://popculine.com/wp-content/uploads/2020/10/1-WAISTBAG-PRODUCTIVE-min-840x840.jpg",
+      "articleName" : "Waistwords Bag – Productive Without Pressure",
+      "brandIcon" : "https://pbs.twimg.com/profile_images/788646900220190720/bWLw5gxJ_400x400.jpg",
+      "brandName" : "Popculine",
+      "price" : "150.000"
+    }
+  ]
+}

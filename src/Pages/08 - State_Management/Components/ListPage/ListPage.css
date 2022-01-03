@@ -1,0 +1,24 @@
+#State_Management .list-page {
+  height: 89%;
+  display: flex;
+  align-content: space-around;
+  justify-content: space-evenly;
+  gap: 20%;
+  padding: 15px 10%;
+}
+
+#State_Management .list-page > a {
+  height: 100%;
+  width: 33.3%;
+  padding : 20px; 
+}
+
+#State_Management .list-page > a:link {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+#State_Management .list-page > a:visited {
+  text-decoration: inherit;
+  color: inherit; 
+}

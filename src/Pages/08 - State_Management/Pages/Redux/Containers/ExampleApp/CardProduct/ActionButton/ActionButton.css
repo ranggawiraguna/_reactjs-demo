@@ -1,0 +1,16 @@
+#Redux_Implementation .card-product .button-action {
+  outline: 0 !important;
+  border: 0;
+  margin: 10px;
+  padding: 7px 0;
+  background-color: rgb(255, 147, 58);
+  border-radius: 5px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#Redux_Implementation .card-product .button-action:hover {
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 58, 58);
+}
