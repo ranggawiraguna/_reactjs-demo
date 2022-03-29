@@ -1,0 +1,16 @@
+#Context_Implementation .section-container {
+  flex: 1;
+  width: 100%;
+  background-color: whitesmoke;
+  overflow: auto;
+  padding: 20px;
+}
+
+#Context_Implementation .section-container::-webkit-scrollbar {
+  width: 30px;
+}
+#Context_Implementation .section-container::-webkit-scrollbar-thumb {
+  background-color: rgba(92, 176, 255, 0.6);
+  border-radius: 30px;
+  border: 10px solid whitesmoke;
+}

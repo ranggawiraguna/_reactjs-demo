@@ -1,83 +1,112 @@
-import { createStore } from 'redux';
+import { createStore } from "redux";
+import ActionType from "./ActionType";
 
-const State = {
-  listProduct: [],
-  listCart: [],
-  cartCount: 0,
-  favoriteCount: 0,
-  listFavorite: []
-}
+const Store = createStore(
+  (
+    currentState = {
+      listProduct: [],
+      listCart: [],
+      cartCount: 0,
+      favoriteCount: 0,
+      listFavorite: [],
+    },
+    action
+  ) => {
+    switch (action.type) {
+      case ActionType.initialState:
+        return { ...currentState, listProduct: action.data };
 
-const Store = createStore((currentState = State, action) => {
-  switch (action.type) {
-    case 'INITIAL_STATE':
-      return { ...currentState, listProduct: action.data }
+      case ActionType.addToCart:
+        let cart = [...currentState.listCart];
+        let isExists = false;
 
+        cart.forEach((item, index) => {
+          if (item.id === action.product.id) {
+            isExists = true;
+            return (cart[index] = {
+              ...item,
+              count: item.count + action.count,
+            });
+          }
+        });
 
-    case 'ADD_TO_CART':
-      let cart = [...currentState.listCart];
-      let isExists = false;
+        if (!isExists) cart.push({ ...action.product, count: action.count });
+        if (action.callback !== undefined) action.callback();
 
-      cart.forEach((item, index) => {
-        if (item.id === action.product.id) {
-          isExists = true;
-          return cart[index] = { ...item, count: (item.count + action.count) }
-        }
-      });
+        return {
+          ...currentState,
+          listCart: cart,
+          cartCount: currentState.cartCount + action.count,
+        };
 
-      if (!isExists) cart.push({ ...action.product, count: action.count });
-      if (action.callback !== undefined) action.callback()
+      case ActionType.addToFavorite:
+        if (action.callback !== undefined) action.callback();
+        return {
+          ...currentState,
+          listFavorite: [...currentState.listFavorite, action.product],
+        };
 
-      return { ...currentState, listCart: cart, cartCount: (currentState.cartCount + action.count) }
+      case ActionType.removeFromCart:
+        let carts = [...currentState.listCart];
+        let indexCart = null;
 
-    case 'ADD_TO_FAVORITE':
-      if (action.callback !== undefined) action.callback()
-      return { ...currentState, listFavorite: [...currentState.listFavorite, action.product] }
+        carts.forEach((item, index) => {
+          if (item.id === action.product.id) return (indexCart = index);
+        });
 
+        if (indexCart !== null) carts.splice(indexCart, 1);
+        if (action.callback !== undefined) action.callback();
 
-    case 'REMOVE_FROM_CART':
-      let carts = [...currentState.listCart];
-      let indexCart = null;
+        return {
+          ...currentState,
+          listCart: carts,
+          cartCount: currentState.cartCount - action.product.count,
+        };
 
-      carts.forEach((item, index) => { if (item.id === action.product.id) return indexCart = index })
+      case ActionType.removeFromFavorite:
+        let favorites = [...currentState.listFavorite];
+        let indexFav = null;
 
-      if (indexCart !== null) carts.splice(indexCart, 1)
-      if (action.callback !== undefined) action.callback()
+        favorites.forEach((item, index) => {
+          if (item.id === action.product.id) return (indexFav = index);
+        });
 
-      return { ...currentState, listCart: carts, cartCount: (currentState.cartCount - action.product.count) }
+        if (indexFav !== null) favorites.splice(indexFav, 1);
+        if (action.callback !== undefined) action.callback();
 
+        return {
+          ...currentState,
+          listFavorite: favorites,
+          favoriteCount: currentState.favoriteCount - 1,
+        };
 
-    case 'REMOVE_FROM_FAVORITE':
-      let favorites = [...currentState.listFavorite];
-      let indexFav = null;
+      case ActionType.buyProduct:
+        let carts_2 = [...currentState.listCart];
+        let indexCart_2 = null;
 
-      favorites.forEach((item, index) => { if (item.id === action.product.id) return indexFav = index })
+        carts_2.forEach((item, index) => {
+          if (item.id === action.product.id) return (indexCart_2 = index);
+        });
 
-      if (indexFav !== null) favorites.splice(indexFav, 1)
-      if (action.callback !== undefined) action.callback()
+        if (indexCart_2 !== null) carts_2.splice(indexCart_2, 1);
+        if (action.callback !== undefined) action.callback();
 
-      return { ...currentState, listFavorite: favorites, favoriteCount: (currentState.favoriteCount - 1) }
+        alert("Order Success, Please wait for the product to be sent");
 
-    case 'BUY_PRODUCT':
-      let carts_2 = [...currentState.listCart];
-      let indexCart_2 = null;
+        return {
+          ...currentState,
+          listCart: carts_2,
+          cartCount: currentState.cartCount - action.product.count,
+        };
 
-      carts_2.forEach((item, index) => { if (item.id === action.product.id) return indexCart_2 = index })
-
-      if (indexCart_2 !== null) carts_2.splice(indexCart_2, 1)
-      if (action.callback !== undefined) action.callback()
-
-      alert("Order Success, Please wait for the product to be sent")
-
-      return { ...currentState, listCart: carts_2, cartCount: (currentState.cartCount - action.product.count) }
-      
-    default:
-      return currentState
+      default:
+        return currentState;
+    }
   }
-});
+);
 
 Store.subscribe(() => {
   console.log("State Changed : ", Store.getState());
-})
+});
 
-export default Store
+export default Store;

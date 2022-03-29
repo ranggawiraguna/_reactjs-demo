@@ -142,9 +142,10 @@ class BasicRouter extends Component {
                   </form>
                 </div>
               </nav>
-              <section style={{ flex: 1, width: '100%', padding: 20, overflow: 'auto' }}>
+              <section style={{ flex: 1, width: '100%', padding: 20, overflow: 'auto' }}>                
                 <Switch>
-                  <Route exact path="/React-Router/Basic-Router/Home" component={this.Home} />
+                  {/* keyword exact digunakan untuk memriksa path yang diterima secara penuh, jika tidak menggunakan exact maka route akan tetap di render walaupun pathnya hanya merupakan substring dari path yang diterima */}
+                  <Route exact path="/React-Router/Basic-Router/Home" component={this.Home} /> 
                   <Route path="/React-Router/Basic-Router/Products" component={this.Products} />
                   <Route exact path="/React-Router/Basic-Router/About" component={this.About} />
                 </Switch>

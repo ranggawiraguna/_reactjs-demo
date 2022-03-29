@@ -94,7 +94,6 @@ class Backend_Post extends React.Component {
       e.setAttribute("aria-selected", false);
     });
     elemenSelected.setAttribute("aria-selected", true);
-    elemenSelected.classList.remove("active");
   }
 
   componentDidMount = async () => {

@@ -6,7 +6,7 @@
       "type": "shell",
       "command": "node",
       "args": [
-        ".\\public\\config\\reset-api.js"
+        "./public/config/reset-api.js"
       ],
       "problemMatcher": []
     },
@@ -24,7 +24,7 @@
       "type": "shell",
       "command": "json-server",
       "args": [
-        ".\\src\\Server\\API\\CurriculumVitae.json",
+        "./src/Server/API/CurriculumVitae.json",
         "--port",
         "3001"
       ],
@@ -35,7 +35,7 @@
       "type": "shell",
       "command": "json-server",
       "args": [
-        ".\\src\\Server\\API\\Restaurant.json",
+        "./src/Server/API/Restaurant.json",
         "--port",
         "3002"
       ],
@@ -46,7 +46,7 @@
       "type": "shell",
       "command": "json-server",
       "args": [
-        ".\\src\\Server\\API\\Contents.json",
+        "./src/Server/API/Contents.json",
         "--port",
         "3003"
       ],
@@ -57,7 +57,7 @@
       "type": "shell",
       "command": "json-server",
       "args": [
-        ".\\src\\Server\\API\\Clothes.json",
+        "./src/Server/API/Clothes.json",
         "--port",
         "3004"
       ],

@@ -2,41 +2,41 @@
   "Products" : [
     {
       "id" : 1,
-      "image" : "https://queenbeer.com/wp-content/uploads/2020/10/CHICAGO-PH-680x680.jpg",
+      "image" : "https://drive.google.com/uc?export=view&id=1NeUNnyZc35FDVyPeP1V-GWIL4En_BT3V",
       "articleName" : "CHICAGO BLACK PULLOVER HOODIE",
-      "brandIcon" : "https://queenbeer.com/wp-content/uploads/2019/06/icon.png",
+      "brandIcon" : "https://drive.google.com/uc?export=view&id=18JKnZO0MM6VDTcr6MlYQtRJGO6wAzLJI",
       "brandName" : "Queenbeer",
       "price" : "340.000"
     },
     {
       "id" : 2,
-      "image" : "https://queenbeer.com/wp-content/uploads/2021/01/1605519228988-1-680x680.jpg",
+      "image" : "https://drive.google.com/uc?export=view&id=1JUoNyKWvUJSNv57XSizJl0vGjfUhmOjO",
       "articleName" : "JESSIE NAVY T-SHIRT",
-      "brandIcon" : "https://queenbeer.com/wp-content/uploads/2019/06/icon.png",
+      "brandIcon" : "https://drive.google.com/uc?export=view&id=18JKnZO0MM6VDTcr6MlYQtRJGO6wAzLJI",
       "brandName" : "Queenbeer",
       "price" : "150.000"
     },
     {
       "id" : 3,
-      "image" : "https://queenbeer.com/wp-content/uploads/2020/03/MARLINE-BLACK-4-680x680.jpg",
+      "image" : "https://drive.google.com/uc?export=view&id=1oYdZOLk7uf-LFJBz4Ly0l1lF0zzen_g9",
       "articleName" : "MARLINE BLACK BAGPACK",
-      "brandIcon" : "https://queenbeer.com/wp-content/uploads/2019/06/icon.png",
+      "brandIcon" : "https://drive.google.com/uc?export=view&id=18JKnZO0MM6VDTcr6MlYQtRJGO6wAzLJI",
       "brandName" : "Queenbeer",
       "price" : "350.000"
     },
     {
       "id" : 4,
-      "image" : "https://cdn.shopify.com/s/files/1/0516/3378/2976/products/md_5c7cf7cd0f919_400x.jpg?v=1611835215",
+      "image" : "https://drive.google.com/uc?export=view&id=1AtdX_WUcQJbYxQ7geU8C3vETmuH6vA1z",
       "articleName" : "FOREVER NIJI PH LOGO BLACK",
-      "brandIcon" : "https://pbs.twimg.com/profile_images/710322111198449664/ri0Hrith.jpg",
+      "brandIcon" : "https://drive.google.com/uc?export=view&id=1k7kMVSKxzMZNvdzbFyXQEQcJef7j0wSY",
       "brandName" : "SundaySundayCo",
       "price" : "385.000"
     },
     {
       "id" : 5,
-      "image" : "https://cdn.shopify.com/s/files/1/0516/3378/2976/products/Shopee_14a1fdfba2cf3cb611e73d79556a2b38_400x.jpg?v=1611890605",
+      "image" : "https://drive.google.com/uc?export=view&id=160p3cJq_oxnvjGGzgHAj6FBOGgRpc9PN",
       "articleName" : "WATER CONE NAVY",
-      "brandIcon" : "https://pbs.twimg.com/profile_images/710322111198449664/ri0Hrith.jpg",
+      "brandIcon" : "https://drive.google.com/uc?export=view&id=1k7kMVSKxzMZNvdzbFyXQEQcJef7j0wSY",
       "brandName" : "SundaySundayCo",
       "price" : "385.000"
     },

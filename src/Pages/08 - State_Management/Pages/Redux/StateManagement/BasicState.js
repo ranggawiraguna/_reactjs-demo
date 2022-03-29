@@ -1,10 +1,7 @@
 /* TESTING NOTE : command 'node thisFile.js' in cmd terminal */
 
-//inital
-const redux = require('redux');
-const createStore = redux.createStore;
+//Inital State
 const defautState = { id: -1, name: "test", value: 0, data: [] };
-
 
 //Reducer
 const rootReducer = (state = defautState, action) => {
@@ -27,7 +24,7 @@ const rootReducer = (state = defautState, action) => {
 }
 
 //Store
-const store = createStore(rootReducer);
+const store = require('redux').createStore(rootReducer);
 
 //Subscription
 store.subscribe(()=>{

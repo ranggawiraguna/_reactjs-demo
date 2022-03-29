@@ -1,0 +1,63 @@
+#Context_Implementation .card-product {
+  background-color: white;
+  width: 180px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.2);
+  cursor: grab;
+  display: flex;
+  flex-direction: column;
+}
+
+#Context_Implementation .card-product:hover {
+  box-shadow: 1px 2px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+#Context_Implementation .card-product > .product-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+}
+
+#Context_Implementation .card-product > .product-header > h4 {
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+#Context_Implementation .card-product > .product-title {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  flex: 1;
+  align-items: flex-start;
+}
+
+#Context_Implementation .card-product > .product-title > button {
+  outline: 0 !important;
+  border: 0;
+  background-color: white;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  padding: 5px;
+  height: 25px;
+  width: 25px;
+}
+
+#Context_Implementation .card-product > .product-title > button:hover {
+  box-shadow: 0 0 5px 2px rgba(0, 0, 255, 0.4);
+}
+
+#Context_Implementation .card-product .product-title h5 {
+  text-align: start;
+  font-size: 12px;
+  flex: 1;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+#Context_Implementation .card-product > p {
+  text-align: start;
+  margin: 0 10px;
+  font-size: 12px;
+  color: #5f5f5f;
+}
