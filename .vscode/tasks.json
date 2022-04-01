@@ -53,7 +53,7 @@
       "problemMatcher": []
     },
     {
-      "label": "Server Redux-Implementation",
+      "label": "Server State-Management-Implementation",
       "type": "shell",
       "command": "json-server",
       "args": [

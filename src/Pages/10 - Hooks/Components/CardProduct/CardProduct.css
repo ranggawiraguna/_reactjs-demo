@@ -1,4 +1,4 @@
-#BasicHooks .card-product {
+#Hooks .card-product {
   background-color: white;
   width: 180px;
   border-radius: 10px;
@@ -8,23 +8,23 @@
   flex-direction: column;
 }
 
-#BasicHooks .card-product:hover {
+#Hooks .card-product:hover {
   box-shadow: 1px 2px 5px 3px rgba(0, 0, 0, 0.2);
 }
 
-#BasicHooks .card-product > .product-header {
+#Hooks .card-product > .product-header {
   display: flex;
   align-items: center;
   gap: 8px;
   padding: 10px;
 }
 
-#BasicHooks .card-product > .product-header > h4 {
+#Hooks .card-product > .product-header > h4 {
   font-size: 12px;
   font-weight: bolder;
 }
 
-#BasicHooks .card-product > .product-title {
+#Hooks .card-product > .product-title {
   display: flex;
   gap: 10px;
   padding: 10px;
@@ -32,7 +32,7 @@
   align-items: flex-start;
 }
 
-#BasicHooks .card-product > .product-title > button {
+#Hooks .card-product > .product-title > button {
   outline: 0 !important;
   border: 0;
   background-color: white;
@@ -43,11 +43,11 @@
   width: 25px;
 }
 
-#BasicHooks .card-product > .product-title > button:hover {
+#Hooks .card-product > .product-title > button:hover {
   box-shadow: 0 0 5px 2px rgba(0, 0, 255, 0.4);
 }
 
-#BasicHooks .card-product .product-title h5 {
+#Hooks .card-product .product-title h5 {
   text-align: start;
   font-size: 12px;
   flex: 1;
@@ -55,14 +55,14 @@
   font-weight: bold;
 }
 
-#BasicHooks .card-product > p {
+#Hooks .card-product > p {
   text-align: start;
   margin: 0 10px;
   font-size: 12px;
   color: #5f5f5f;
 }
 
-#BasicHooks .card-product .counter-form {
+#Hooks .card-product .counter-form {
   width: 100%;
   flex: 1;
   justify-content: flex-end;
@@ -72,19 +72,19 @@
   padding: 10px;
 }
 
-#BasicHooks .card-product .counter-form * {
+#Hooks .card-product .counter-form * {
   outline: 0 !important;
   border: 0;
 }
 
-#BasicHooks .card-product .counter-form .form {
+#Hooks .card-product .counter-form .form {
   display: flex;
   gap: 5px;
   width: 100%;
   align-items: center;
 }
 
-#BasicHooks .card-product .counter-form .form button {
+#Hooks .card-product .counter-form .form button {
   padding: 5px 10px;
   background-color: rgb(255, 147, 58);
   border-radius: 5px;
@@ -92,7 +92,7 @@
   font-size: 16px;
 }
 
-#BasicHooks .card-product .counter-form .form input {
+#Hooks .card-product .counter-form .form input {
   width: 0;
   flex: 1;
   text-align: center;
@@ -102,9 +102,9 @@
   border: 3px solid rgba(30, 144, 255, 0.2);
 }
 
-#BasicHooks .card-product .counter-form .button-submit {
+#Hooks .card-product .counter-form .button-submit {
   width: 100%;
-  background-color: #A3BAFF;
+  background-color: #a3baff;
   color: white;
   padding: 8px;
   font-size: 14px;
@@ -112,13 +112,13 @@
   font-weight: bold;
 }
 
-#BasicHooks .card-product .counter-form .form button:hover, 
-#BasicHooks .card-product .counter-form .button-submit:hover, 
-#BasicHooks .card-product .counter-form .form input:hover, 
-#BasicHooks .card-product .counter-form .form input:focus {
+#Hooks .card-product .counter-form .form button:hover,
+#Hooks .card-product .counter-form .button-submit:hover,
+#Hooks .card-product .counter-form .form input:hover,
+#Hooks .card-product .counter-form .form input:focus {
   box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
 }
 
-#BasicHooks .card-product .counter-form .form input:focus {
-  border: 3px solid rgba(30, 144, 255, 0.4); 
+#Hooks .card-product .counter-form .form input:focus {
+  border: 3px solid rgba(30, 144, 255, 0.4);
 }

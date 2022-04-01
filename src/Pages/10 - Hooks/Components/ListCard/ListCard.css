@@ -1,8 +1,9 @@
-#BasicHooks .list-card, #SideEffectHooks .list-card {
+#Hooks .list-card,
+#SideEffectHooks .list-card {
   width: 100%;
   flex: 1;
   display: flex;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   padding: 20px;
