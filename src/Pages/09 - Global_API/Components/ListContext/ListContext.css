@@ -1,0 +1,32 @@
+#Global_API .list-context {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  height: 89%;
+  display: flex;
+  width: 75%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  align-content: space-around;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+#Global_API .list-context > a {
+  height: 50%;
+  width: 40%;
+  padding : 20px; 
+}
+
+#Global_API .list-context > a:link {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}
+
+#Global_API .list-context > a:visited {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}

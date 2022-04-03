@@ -27,6 +27,10 @@ import State_Management_Context from "./Pages/08 - State_Management/Pages/Contex
 import Context_BasicState from "./Pages/08 - State_Management/Pages/Context/SubContext/083 - Context_BasicState";
 import Context_Implementation from "./Pages/08 - State_Management/Pages/Context/SubContext/084 - Context_Implementation";
 import Global_API from "./Pages/09 - Global_API/Global_API";
+import GlobalAPI_Post from "./Pages/09 - Global_API/SubContext/091 - Post";
+import GlobalAPI_Get from "./Pages/09 - Global_API/SubContext/092 - Get";
+import GlobalAPI_Put from "./Pages/09 - Global_API/SubContext/093 - Put";
+import GlobalAPI_Delete from "./Pages/09 - Global_API/SubContext/094 - Delete";
 import Hooks from "./Pages/10 - Hooks/Hooks";
 import BasicHooks from "./Pages/10 - Hooks/SubContext/101 - BasicHooks";
 import SideEffectHooks from "./Pages/10 - Hooks/SubContext/102 - SideEffectHooks";
@@ -139,6 +143,10 @@ function App() {
         <Route exact path="/Hooks/Side-Effect" component={SideEffectHooks} />
         <Route exact path="/Firebase" component={Firebase} />
         <Route exact path="/Example-Projects" component={Example_Projects} />
+        <Route exact path="/Global-API/Get" component={GlobalAPI_Get} />
+        <Route exact path="/Global-API/Delete" component={GlobalAPI_Delete} />
+        <Route exact path="/Global-API/Post" component={GlobalAPI_Post} />
+        <Route exact path="/Global-API/Put" component={GlobalAPI_Put} />
       </Switch>
     </BrowserRouter>
   );

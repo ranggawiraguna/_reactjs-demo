@@ -1,44 +1,38 @@
 {
   "profile": {
     "name": "Rangga Wiraguna",
-    "foto": "https://lh3.googleusercontent.com/fife/ABSRlIoKLnNKbD7cGlnFWavTx5yEDUViSoAduQfCLW1uei_WopU-_8A8vb9O-8wECJ0pJnqwER5wd-bb6gvftfxB3CeWfDeJQdwcTy9-ADljqZryvyrZqM3aMzxl4wfDqVto45V8mox2_9yDbXWt00Z-PmJ6ZHbXgyJhv3gBLXhGviQR1TXqz4TVpPP_wgAk55FAJY7b72JAUhVejlS907AA90UpOdgltW63pquM6ARy6vEywMtgVrOlSQFkk-dkQKmBTlsopeCX2zSwL9er-N47osy2whVvpHTzxIv_ubfClv5mKuG-m_jC77j79hOxJZa_kwo9SPNAmg7Hno7F2BGmoE3z0TPYyh0ux2zOS4SQ6_TIq3nhMqqeqTIgJAixy6qhTvUzwdNcCh9c8jJHXY9xcQplvfWMoFGy6NYuPd7F5Ro0-f02tioUUs8uQsqpQgIH5OvcH96s9zk2hjBH_xI0N8ECAUTMwbpawFGaVAm2r81lNHKU-HhAdymsSue2JI6fwmBpiOTFSgYz2YskK2zeSrd0jK87MFwyN-2k5Pkm9tKBKTyxKwls1I2FIXs2H4vaYi1dIrnRmsmZ4aKDLZP6CeptCb-3C6sk8RzrRYBHNw5a6M4CN0RhWsLencLOWGtbTUNEocAbVWwj2TalAiDLv-gX1-BozYIBsv_7PgZ1z9tS2-dnmCUj1Jftnm_YjByjmOl_0x7F3nZlSitj3Ka9UUMbDvO1964QWY0=w1187-h990-ft",
+    "foto": "https://drive.google.com/uc?export=view&id=1XmrgL8XTLlmDticwaNqiP-liUz0cQbBy",
     "countFollowers": 128,
     "countFollowing": 91,
     "countPosts": 8
   },
   "programming": [
     {
-      "id" : 1,
-      "icon": "https://upload.wikimedia.org/wikipedia/commons/8/80/HTML5_logo_resized.svg",
-      "name": "HTML",
-      "progress": 50
-    },
-    {
-      "id" : 2,
+      "id": 2,
       "icon": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
       "name": "CSS",
       "progress": 75
     },
     {
-      "id" : 3,
+      "id": 3,
       "icon": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Javascript-shield.svg",
       "name": "JavaScript",
       "progress": 70
     },
     {
-      "id" : 4,
+      "id": 4,
       "icon": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
       "name": "React JS",
       "progress": 60
     },
     {
-      "id" : 5,
+      "id": 5,
       "icon": "https://upload.wikimedia.org/wikipedia/de/e/e1/Java-Logo.svg",
       "name": "Java",
       "progress": 80
     },
     {
-      "id" : 6,
+      "id": 6,
       "icon": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Database-mysql.svg",
       "name": "MySQL",
       "progress": 65
@@ -46,47 +40,42 @@
   ],
   "software": [
     {
-      "id" : 1,
+      "id": 1,
       "icon": "https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg",
       "name": "Adobe Photoshop"
     },
     {
-      "id" : 2,
-      "icon": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Adobe_XD_CC_icon.svg",
-      "name": "Adobe XD"
-    },
-    {
-      "id" : 3,
+      "id": 3,
       "icon": "https://static.figma.com/app/icon/1/icon-192.png",
       "name": "Figma"
     },
     {
-      "id" : 4,
+      "id": 4,
       "icon": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Microsoft_Office_logo_%282019%E2%80%93present%29.svg",
       "name": "Microsoft Office"
     }
   ],
   "educations": [
     {
-      "id" : 1,
+      "id": 1,
       "image": "https://fk.uhamka.ac.id/wp-content/uploads/2019/03/Kampus-F.png",
       "name": "Universitas Muhammadiyah Prof. Dr. Hamka",
       "periode": "2018 - Present"
     },
     {
-      "id" : 2,
+      "id": 2,
       "image": "https://lh5.googleusercontent.com/p/AF1QipNSpySkkbDxz5zV7f8NXh5vKPNWlhUB1gdPSZG0",
       "name": "SMKN 5 Jakarta",
       "periode": "2015 - 2018"
     },
     {
-      "id" : 3,
+      "id": 3,
       "image": "https://lh5.googleusercontent.com/p/AF1QipMDWc8X0b_PHfm6lFZ_N90uDhvOhklXNKDhRL_s",
       "name": "SMPN 275 Jakarta",
       "periode": "2012 - 2015"
     },
     {
-      "id" : 4,
+      "id": 4,
       "image": "https://lh5.googleusercontent.com/p/AF1QipM_3NuTUy4_7WNiAdvRXJOSG9rw-gXm8xPE6wbp",
       "name": "SDN Kebon Pala 04 Pagi",
       "periode": "2006 - 2012"
@@ -94,7 +83,7 @@
   ],
   "workExperiences": [
     {
-      "id" : 1,
+      "id": 1,
       "name": "PT. Bintang Komunikasi Utama (Internship)",
       "jobdesk": "Electronic Engineering",
       "periode": "May 2016 - June 2016"
@@ -102,19 +91,19 @@
   ],
   "certificateSeminar": [
     {
-      "id" : 1,
+      "id": 1,
       "name": "TEKNOKA 4 - Inovasi Teknologi : Smart, Lean and Green di Era Disruptif",
       "status": "Peserta",
       "time": "November 2019"
     },
     {
-      "id" : 2,
+      "id": 2,
       "name": "TEKNOKA 5 - Inovasi Teknologi Yang Adaptif Dalam Menghadapi Era Adaptasi Kehidupan Baru",
       "status": "Peserta",
       "time": "November 2020"
     },
     {
-      "id" : 3,
+      "id": 3,
       "name": "WORKSHOP IFEST 5.0 - How To Create a Portofolio by Front-End",
       "status": "Peserta",
       "time": "June 2020"
@@ -122,39 +111,39 @@
   ],
   "hobbies": [
     {
-      "id" : 1,
+      "id": 1,
       "icon": "https://img.icons8.com/clouds/452/camera.png",
       "name": "Fotografi"
     },
     {
-      "id" : 2,
+      "id": 2,
       "icon": "https://img.icons8.com/clouds/344/controller.png",
       "name": "Gaming"
     },
     {
-      "id" : 3,
+      "id": 3,
       "icon": "https://img.icons8.com/clouds/452/code.png",
       "name": "Coding"
     },
     {
-      "id" : 4,
+      "id": 4,
       "icon": "https://img.icons8.com/clouds/344/book-reading.png",
       "name": "Reading"
     }
   ],
   "socialMedia": [
     {
-      "id" : 1,
+      "id": 1,
       "icon": "https://img.icons8.com/clouds/452/dribbble.png",
       "urlAccount": "dribbble.com/ranggawiraguna"
     },
     {
-      "id" : 2,
+      "id": 2,
       "icon": "https://img.icons8.com/clouds/452/github.png",
       "urlAccount": "github.com/ranggawiraguna"
     },
     {
-      "id" : 3,
+      "id": 3,
       "icon": "https://img.icons8.com/clouds/452/instagram-new--v2.png",
       "urlAccount": "instagram.com/ranggapx_"
     }

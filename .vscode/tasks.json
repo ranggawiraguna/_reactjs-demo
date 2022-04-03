@@ -20,7 +20,7 @@
       "problemMatcher": []
     },
     {
-      "label": "Server Backend-Interaction",
+      "label": "Server Backend-API",
       "type": "shell",
       "command": "json-server",
       "args": [

@@ -1,0 +1,38 @@
+.circle-progress { 
+  position: relative; 
+  height: 100%;
+}
+
+.circle-progress .bar {
+  position: absolute; top: 0; left: 0;
+  width: 100%; height: 100%;
+  transform: rotate(-90deg);
+}
+
+.circle-progress .bar .bar-bg,.circle-progress .bar .bar-color { 
+  stroke : lightgray; 
+  fill : none; 
+  stroke-linecap : round;
+  stroke-width : 10%;
+}
+
+.circle-progress .bar .bar-bg { stroke: lightgray; }
+.circle-progress .bar .bar-color { stroke: #FF633D; }
+.circle-progress .bar .bar-content { fill: honeydew; }
+
+.circle-progress .icon {
+  position: absolute;
+  overflow: hidden;
+  border-radius: 100%;
+  top: 15%; right: 13%; bottom: 13%; left: 13%; 
+}
+
+.circle-progress .icon > span { 
+  position: absolute;
+  top: 15%; left: 15%; bottom: 15%; right: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
